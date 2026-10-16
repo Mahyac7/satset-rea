@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             textSize = 24f
         }
 
-        val hint = TextView(this).apply {
+        val hintLabel = TextView(this).apply {
             text = "Enter the password to reveal the flag."
             textSize = 14f
             setPadding(0, 24, 0, 24)
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         root.addView(title)
-        root.addView(hint)
+        root.addView(hintLabel)
         root.addView(input)
         root.addView(button)
         root.addView(output)
